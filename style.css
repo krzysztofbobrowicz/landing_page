@@ -13,7 +13,7 @@ body {
 section.header {
   background-color: #1f2937;
   padding-bottom: 100px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 div.header {
@@ -69,4 +69,86 @@ a.header-signup {
 h3.header-logo-text {
   font-size: 24px;
   color: #f9faf8;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  margin-right: 50px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.images p {
+  width: 150px;
+  text-align: center;
+}
+
+h2.random-information {
+  text-align: center;
+  margin: 40px 0 40px 0;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.random-information {
+  margin-bottom: 100px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 0 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-section .quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  width: 800px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-section .signature {
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 550px;
+}
+
+.call-to-action {
+  margin: 100px 500px;
+  background-color: #3882f6;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.call-to-action-texts {
+  color: #fff;
+}
+
+button.sign-up-button {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: inherit;
+  padding: 0px 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
 }
